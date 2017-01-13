@@ -149,7 +149,8 @@ void game()
         int copiex1,y1,x1,x2,copiey;
         x1=x;
 
-
+        if(matricebuna[x][y]==0)
+        {
         while(x1>=1)
    {
         copiex1=x1;
@@ -199,7 +200,7 @@ while(x1<=nrpatrate)
     x1++;
 }
 
-
+        }
 
 
 
